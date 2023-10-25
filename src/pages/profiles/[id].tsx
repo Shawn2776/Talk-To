@@ -47,7 +47,7 @@ const ProfilePage: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   return (
     <>
       <Head>
-        <title>{`Twitter Clone - ${profile.name}`}</title>
+        <title>{`Talk To - ${profile.name}`}</title>
       </Head>
       <header className="items-centerborder-b sticky top-0 z-10 flex bg-white px-4 py-2">
         <Link href=".." className="mr-2">
